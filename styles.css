@@ -7,22 +7,30 @@
 
 body{
     margin: 0px;
+    background-image: url("images/Minion - 2.jpg");
 }
 
-.navigation {
+.navigation .nav-brand{
     background-color: var(--header-footer-color);
     color: white;
-    padding: 1rem;
     border-bottom-left-radius: 1rem;
     font-weight: bold;
     font-size: x-large;
 }
 
-/* 
-.image {
-    height: 100%;
-    width: 80vh;
-} */
+.list-no-bullet{
+    text-align: right;
+}
+.list-inline {
+   
+    display: inline;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.link{
+    color: whitesmoke;
+}
 
 main {
     margin: auto;
@@ -37,16 +45,18 @@ textarea {
     min-height: 20vh;
     font-size: large;
     font-family: inherit;
+    font-weight: bold;
+    color: black;
+    opacity: 0.5;
 }
 
 #btn-translate{
     background-color: var(--header-footer-color);
-    border-radius: 0.5rem;
-    margin: 1rem 0rem;
+    border-radius: 1rem;
+    margin: 1rem 15rem;
     padding: 0.5rem 0.5rem;
     font-family: 'Kalam', cursive;
     font-size: medium;
-    align-items: center;
 }
 
 #txt-output {
@@ -55,33 +65,5 @@ textarea {
     width: 100%;
     min-height: 20vh;
     font-size: large;
-    font-family: inherit;
-}
-
-.footer{
-    
-    background-color: var(--header-footer-color);
-    color: white;
-    border-top-right-radius: 1rem;
-    padding-bottom: 2rem;
-    text-align: center;
-}
-
-.footer .footer-header{
-    font-weight: bold;
-    font-size: x-large;
-}
-
-.list-inline {
-    display: inline;
-    padding: 0rem 0.5rem;
-    font-weight: bold;
-}
-
-.footer ul{
-    padding-inline-start: 0px;
-}
-
-.footer .link{
-    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
